@@ -1,0 +1,365 @@
+@media screen and (max-width: 768px) {
+  .container { 
+    max-width: 768px;  
+    margin: auto;
+    padding: 0 40px;
+  }
+  
+  h2 { font-size: 40px; }
+  
+  p { font-size: 12px; }
+
+  .herocontainer { display: block; }
+  
+  .heroleft {
+    margin: 50px 0px;
+  }
+  
+  .heroleft h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .heroleft p {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hero { margin-left: 40px ;}
+
+  .benefitCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card { width: 90%; }
+
+
+  .lightGraybg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .lightGraybg img {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .whysection {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 100px 0; 
+  }
+
+  .why {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .why div { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+  }
+
+  .why div i {
+    margin-right: 30px;
+  }
+  
+  .blueLine { display: none;}
+
+  .bannertwo { max-width: 600px; }
+
+  .banner {
+    border: 20px solid white;
+    top: -170px;
+    background-color: white;
+  }
+    
+  .fa-play { padding-left: 9px; }
+
+  .flexcontainer { 
+    flex-direction: column;
+    padding: 15px 15px;
+  }
+  
+  .fleximage { 
+    max-width: 110%;
+    margin-bottom: 100px;
+  }
+  
+  .dots {
+    top: 85px;
+    left: 40px;
+  }
+  
+  .dotsimage { left: -120px; }
+  
+  .hubspot { 
+    max-width: 30%;
+    margin-left: 50px;
+  }
+
+  .flextext { 
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .bioTitle { margin-bottom: 50px; }
+
+  .trustedlogos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content:center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  .trustedlogos img { 
+    padding: 15px 0; 
+    width: 145px;
+  }
+
+  .blocks { 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+
+  .pricingcard {
+    width: 85%;
+    text-align: center;
+  }
+
+  .pricingcard span { 
+    display: flex;
+    justify-content: center;
+  }
+
+  .pricingcard p, .pricingcard > p:nth-child(5) { text-align: center; }
+
+  .pricingBlock { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    margin-top: 70px;
+  }
+
+  .pricingCard p { 
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .hireus {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hireus > div { 
+    width: 85%;
+    display: block;
+    justify-content: center;
+  }
+
+  .hireus h4 { text-align: center; }
+
+  .hireus p { 
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .hireus hr { 
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  .imgflex { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+  }
+
+  .hireus img {
+    border-radius: 90px;
+    padding: 20px 20px ;
+    width: 12%;
+  }
+  
+  .hireus img:nth-child(3) { width: 18%; }
+
+  .hireus :nth-child(4) {
+    margin-bottom: 0px;
+  }
+
+  .formCard {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    height: 1250px;
+  }
+
+  .formCard h4 {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .gridinput {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  input, select, textarea { 
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 385px;
+  }
+
+  select { width: 93%; }
+
+  textarea {
+    height: 130px;
+  }
+
+  .formend { 
+    margin-top: 20px; 
+    padding-left: 10px;
+  }
+
+  .fa-square { font-size: 35px; }
+
+  .formend p { text-align: left;}
+  .formend div { padding-left: 0px; }
+  .privacyPolicy { padding-left: 45px;}
+
+  .footerTop { 
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer img { 
+    display: flex;
+    margin: auto;
+   }
+
+  .footerTop p { font-size: 24px; }
+  
+  footer h4 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  footer li { 
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  li span {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footerBottom div {
+    padding-bottom: 25px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerBottom div span {
+    display: flex;
+    margin-right: -140px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .urlPath {
+    float: none;
+    display: inline;
+  }
+
+  
+
+  .blueactive { 
+    color: rgb(36, 98, 254);
+    font-weight: 500;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 15px;
+  }
+
+  .socialicons { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  footer div select {
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 5px ;
+  }
+
+  footer div select option {
+    padding-left: 35px;
+  }
+
+  footer span img {
+    position: relative;
+    top: -32px;
+    right: 420px;
+    width: 20px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}

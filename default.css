@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.container { 
+  max-width: 1500px;  
+  margin: auto;
+  padding: 0 150px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(116, 116, 116);
+}
+
+.navButton {
+  border: none;
+  border-radius: 36px;
+  background-color: rgb(36, 98, 254);
+  color: white;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+.navButton i {
+  padding: 6px 8px;
+  margin-right: 8px;
+  background-color: white;
+  color: rgb(36, 98, 254);
+  border-radius: 75px;
+}

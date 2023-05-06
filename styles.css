@@ -1,0 +1,687 @@
+header {
+  align-items: center;
+}
+
+header > img {
+  max-width: 200px;
+}
+
+header ul {
+  display: flex;
+  float: right;
+}
+
+header ul li { 
+  padding: 18px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.heroleft {
+  margin: 100px 0px;
+}
+
+.heroleft h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.heroleft p {
+  font-size: 22px;
+}
+
+.hero {
+  padding-top: 25px; 
+}
+
+.learnmore {
+  color: rgb(36, 98, 254);
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.herocontainer { display: flex; }
+
+
+.heroright { margin-top: 50px;}
+
+.heroright img {
+  border-radius: 50px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.google {
+  width: 50px;
+  position: relative;
+  top: 50px;
+  left: 450px;
+}
+
+.atlassian {
+  position: relative;
+  top: 75px;
+  left: 550px;
+  width: 70px;
+}
+
+.asana {
+  position: relative;
+  top: 65px;
+  left: 900px;
+  width: 70px;
+}
+
+.paypal {
+  position: relative;
+  top: 300px;
+  left: 175px;
+  width: 70px;
+}
+
+.weave {
+  position: relative;
+  top: 200px;
+  left: 800px;
+  width: 70px;
+}
+
+.google-a {
+  width: 50px;
+  position: relative;
+  top: 300px;
+  left: 500px;
+}
+
+.calendar {
+  position: relative;
+  top: 375px;
+  left: 900px;
+  width: 70px;
+}
+
+.benefits { 
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.benefits h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.benefits p { 
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.benefitCards img {
+  width: 75px;
+}
+
+.benefitCards {
+  display: flex;
+  background-color: white;
+}
+
+.card {
+  box-shadow: 2px 0px 20px rgba(118, 118, 118, 0.3);
+  width: 19%;
+  margin: auto;
+  padding: 25px 20px;
+  margin-top: 80px;
+}
+
+.card h4 { 
+  font-size: 24px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 22px;
+  text-align: left;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.card .learnmore {
+  padding-left: 0;
+}
+
+.card span {
+  display: flex;
+}
+
+.sketch {
+  display: inline-block;
+  background-color: rgb(0, 196, 173);
+  border-radius: 32px;
+  border: none;
+  padding: 5px 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+.lightGraybg {
+  background-color: rgb(243, 249, 255);
+  padding-top: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lightGraybg img {
+  float: right;
+}
+
+.lightGraybg h2 {
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.whysection {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px 0;
+}
+
+.whysection h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.whysection p { 
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.fa-period {
+  background-color: rgb(0, 93, 222);
+  border-radius: 50px;
+  border: solid;
+  border-color:  rgb(232, 238, 255);
+  border-width: 30px;
+  padding: 4px;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.why {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+.blueLine {
+  margin-top: -100px;
+  width: 75%;
+  border-color: rgb(244, 250, 255);
+  border-width: 2px;
+}
+
+.bannertwo { max-width: 1500px; }
+
+.banner {
+  position: relative;
+  border: 30px solid white;
+  border-radius: 50px;
+  padding: 5px 10px;
+  box-shadow: 2px 0px 20px rgba(118, 118, 118, 0.3);
+  left: 48%;
+  top: -350px;
+}
+
+.banners .fa-play { font-size: 30px;}
+
+.fa-play {
+  font-size: 14px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.flexcontainer { 
+  display: flex;
+  padding: 150px 150px;
+  align-items: center;
+}
+
+.fleximage { 
+  display: flex; 
+  max-width: 50%;
+}
+
+.dots{
+  max-width: 40%;
+  position: relative;
+  top: 95px;
+  left: 0px;
+}
+
+.dotsimage {
+  max-width: 75%;
+  position: relative;
+  left: -180px;
+  padding-top: 0px;
+}
+
+.hubspot { max-width: 20%;}
+
+.flexcontainer h4 {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.flextext { max-width: 50%;}
+
+.bioName {
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  margin-bottom: -10px;
+}
+
+.bioTitle {
+  padding-top: 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.trusted { 
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.trusted h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: rgb(90, 90, 90);
+}
+
+.trustedlogos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.trustedlogos img {
+  max-width: 175px;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.pricing p { 
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.pricingcard {
+  box-shadow: 2px 0px 20px rgba(118, 118, 118, 0.3);
+  width: 60%;
+  padding: 25px 40px;
+  margin-top: 80px;
+}
+
+.pricingcard span { display: flex; }
+
+
+.month p { 
+  font-size: 38px; 
+  margin-bottom: 15px;
+}
+
+.pricingcard h4 {
+  font-size: 75px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.pricingcard p { 
+  font-size: 28px;
+  text-align: left;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 55px;
+  margin-top: 45px;
+}
+
+.pricingcard > p:nth-child(5) { 
+  font-size: 18px; 
+  text-align: left;
+  font-weight: 500;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.blocks { 
+  display: flex;
+  margin: auto;
+  padding-bottom: 150px;
+}
+
+.pricingBlock { 
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0 50px;
+  margin-top: 70px;
+}
+
+.pricingCard {
+  padding: 20px;
+  margin: 15px;
+}
+
+.pricingCard img { 
+  max-width: 65px;
+}
+
+.pricingCard h4 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.pricingCard p { 
+  font-size: 22px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.pricingCard .sketch2 { display: flex;}
+
+.hireus {
+  background-color: rgb(0, 54, 104);
+  padding: 100px 100px;
+  display: flex;
+}
+
+.hireus > div { 
+  width: 40%;
+  margin:  0 auto;
+}
+
+.hireus h4 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 40px;
+  color: white;
+}
+
+.hireus p { 
+  font-size: 22px;
+  text-align: left;
+  font-weight: 4 00;
+  color: rgb(134, 134, 134);
+  width: 80%;
+  padding: 15px 0;
+}
+
+.hireus hr { 
+  position: relative;
+  text-align: left;
+  display: inline-flex;
+  width: 40%;
+  left: 0;
+}
+
+
+.hireus :nth-child(4) {
+  color: white;
+  margin-bottom: 75px;
+}
+
+p.bioNameWhite {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin-bottom: -10px;
+}
+
+p.bioTitleGray {
+  padding-top: 0;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.hireus img {
+  border-radius: 60px;
+  padding: 10px;
+  width: 10%;
+}
+
+.hireus img:nth-child(3) { width: 15%; }
+
+.imgflex { 
+  display: flex;
+  align-items: center; 
+}
+
+.formCard {
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 35px;
+}
+
+.formCard h4 {
+  color: black;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.gridinput  {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  width: 50px;
+}
+
+input, select, textarea { 
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  margin: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+select { width: 89%; }
+
+textarea {
+  width: 90%;
+  height: 100px;
+  background-color: #ffffff;
+  resize: none;
+  margin-left: 14px;
+  margin-top: -50px;
+}
+
+.fa-square { 
+  font-size: 28px;
+  color: lightgray;
+  margin-top: 15px;
+}
+
+.formend { 
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+}
+
+.formend div {
+  padding-left: 25px;
+  margin-top: -20px;
+  display: block;
+}
+
+.formend p { font-size: 20px;}
+
+.privacyPolicy { 
+  font-weight: 600;
+  margin-right: 15px;
+  text-decoration-style: dashed;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(64, 64, 64);
+} 
+
+.privacyPolicyBlue {
+  font-weight: 600;
+  color: rgb(36, 98, 254);
+  text-decoration-style: dashed;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(36, 98, 254);
+}
+
+.formendbutton { 
+  margin-top: 70px;
+  text-align: center;
+}
+
+.footerTop { 
+  margin: 60px 0;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+footer ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+footer li { 
+  padding-bottom: 10px;
+  color: rgb(85, 85, 85);
+}
+
+li span {
+  display: inline-flex;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+li i { 
+  padding-right: 10px;
+  color: rgb(85, 85, 85);
+  padding-top: 0;
+}
+
+footer img { max-width: 200px;}
+
+.blueactive { 
+  color: rgb(36, 98, 254);
+  font-weight: 500;
+}
+
+footer ul li span button { 
+  background-color: rgb(36, 98, 254);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 10px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+footer h4 {font-size: 24px;}
+
+.footerBottom div {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.footerBottom p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0 150px;
+}
+
+.footerBottom div span { 
+  display: flex;
+  justify-content: center;
+  margin-right: -140px;
+  margin-bottom: 30px;
+}
+
+.footerBottom div span p {
+  font-size: 16px;
+}
+
+.fa-copyright { 
+  margin-right: -140px;
+  color: rgb(85, 85, 85);
+  font-size: 16px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.urlPath {
+  float: left;
+}
+
+.socialicons { 
+  display: flex;
+  float: right;
+  justify-content: end;
+  width: 10px;
+  height: 35px;
+  align-items: center;
+}
+
+footer span select {
+  padding: 8px;
+  border: none;
+  background-color: rgba(220, 230, 236, 0.516);
+  font-size: 16px;
+  width: 35%;
+  height: 35px;
+  padding-left: 40px;
+}
+
+.socialicons i {
+  background-color: rgba(220, 230, 236, 0.516);
+  padding: 10px;
+  border-radius: 8px;
+  color: rgba(65, 75, 92, 0.629);
+  margin-right: 15px;
+  margin-top: 12px;
+}
+
+.socialicons .fa-google { 
+  background-color: rgb(88, 102, 116);
+  color: rgb(255, 255, 255);
+}
+
+footer span select img {
+  position:relative;
+  top: 8px;
+  right: 265px;
+  width: 3%;
+}
