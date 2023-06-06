@@ -5,6 +5,501 @@
     padding: 0 40px;
   }
   
+  h2 { font-size: 52px; }
+  
+  p { font-size: 12px; }
+
+  .herocontainer { display: block; }
+  
+  .heroleft h2 {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    margin: 50px 150px 50px 150px;
+  }
+  
+  .heroleft p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero { margin-left: 170px ;}
+
+  .google {
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+  
+  .atlassian {
+    position: relative;
+    top: 45px;
+    left: 175px;
+    width: 80px;
+  }
+  
+  .asana {
+    position: relative;
+    top: 45px;
+    left: 350px;
+    width: 80px;
+  }
+  
+  .paypal {
+    position: relative;
+    top: 150px;
+    left: -200px;
+    width: 70px;
+  }
+  
+  .weave {
+    position: relative;
+    top: 150px;
+    left: 10px;
+    width: 80px;
+  }
+  
+  .google-a {
+    width: 50px;
+    position: relative;
+    top: 250px;
+    left: -250px;
+  }
+  
+  .calendar {
+    position: relative;
+    top: 275px;
+    left: -40px;
+    width: 80px;
+  }
+
+  .benefits { margin-top: 350px;}
+
+  .benefitCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .card p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.7;
+    font-weight: 500;
+  }
+
+  .card { width: 80%; }
+
+
+  .lightGraybg {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  
+  .lightGraybg img {
+    float: none;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .lightGraybg h2 {
+    font-weight: 500;
+    padding-bottom: 50px;
+    font-size: 36px;
+  }
+
+  .whysection {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 100px 0; 
+  }
+
+  .why {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .why div { 
+    display: flex;
+    flex-direction: row;
+  }
+
+  .why div i {
+    margin-right: 0px;
+  }
+
+  .blueLine {
+    margin-top: -60px;
+    width: 68%;
+    border-color: rgb(244, 250, 255);
+    border-width: 2px;
+  }
+
+  .fa-period {
+    background-color: rgb(0, 93, 222);
+    border-radius: 60px;
+    border-width: 20px;
+    width: 4px;
+    height: 2px;
+  }
+
+  .bannertwo { max-width: 768px; }
+
+  .banner {
+    border: 20px solid white;
+    top: -170px;
+    background-color: white;
+  }
+    
+  .fa-play { 
+    margin-right: 175px; 
+    margin-top: -20px;
+  }
+
+  .flexcontainer { 
+    flex-direction: column;
+    padding: 15px 15px;
+  }
+  
+  .fleximage { 
+    max-width: 110%;
+    margin-bottom: 100px;
+  }
+  
+  .dots {
+    top: 85px;
+    left: 40px;
+  }
+  
+  .dotsimage { left: -120px; }
+  
+  .hubspot { 
+    max-width: 30%;
+    margin-left: 50px;
+  }
+
+  .flextext { 
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .bioTitle { margin-bottom: 50px; }
+
+  .trustedlogos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  .trustedlogos img { 
+    padding: 15px 0; 
+    width: 105px;
+  }
+
+  .blocks { 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+
+  .pricingcard {
+    width: 90%;
+    text-align: center;
+  }
+
+  .pricingcard span { 
+    display: flex;
+    justify-content: center;
+  }
+
+  .pricingcard p, .pricingcard > p:nth-child(5) { text-align: center; }
+
+  .pricingBlock { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    grid-gap: 30px;
+    margin: 0 10px;
+    margin-top: 70px;
+  }
+
+  .pricingBlock .pricingCard { width: 95%;}
+
+  .pricingCard p { 
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .pricingBlock .pricingCard h4 { font-size: 24px;  }
+
+  .hireus {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hireus > div { 
+    width: 85%;
+    display: block;
+    justify-content: center;
+    
+  }
+
+  .hireus h4 { text-align: center; }
+
+  .hireus p { 
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  .hireus hr { 
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  .imgflex { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+  }
+
+  .hireus img {
+    border-radius: 90px;
+    padding: 20px 20px ;
+    width: 12%;
+  }
+  
+  .hireus img:nth-child(3) { width: 18%; }
+
+  .hireus :nth-child(4) {
+    margin-bottom: 0px;
+  }
+
+  .formCard {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    height: 1250px;
+  }
+
+  .formCard h4 {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .gridinput {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  input, select, textarea { 
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 330px;
+  }
+
+  select { width: 93%; }
+
+  textarea {
+    height: 130px;
+  }
+
+  .formend { 
+    margin-top: 20px; 
+    padding-left: 10px;
+  }
+
+  .fa-square { font-size: 35px; }
+
+  .formend p { text-align: left;}
+  .formend div { padding-left: 0px; }
+
+  .formendbutton {margin-bottom: 20px; }
+  
+  .privacyPolicy { 
+    padding-left: 45px;
+    font-size: 14px;
+  }
+
+  .privacyPolicyBlue { font-size: 14px; }
+
+  .footerTop { 
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer img { 
+    display: flex;
+    margin: auto;
+  }
+
+  .footerTop p { font-size: 20px; }
+  
+  footer h4 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  footer li { 
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  li span {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .footerBottom div {
+    padding-bottom: 25px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerBottom div span {
+    display: flex;
+    margin-right: -140px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    flex-direction: column;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .urlpath {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blueactive { 
+    color: rgb(36, 98, 254);
+    font-weight: 500;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 15px;
+  }
+
+  .socialicons { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  footer div select {
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 5px ;
+  }
+
+  footer div select option {
+    padding-left: 35px;
+  }
+
+  .flag {
+    position: relative;
+    top: -32px;
+    right: 420px;
+    width: 20px;
+  }
+
+  .footerBottom div .copyright{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: none;
+    flex-direction: row;
+    width: 550px;
+    margin-left: 15px;
+  }
+
+  .cookies {
+    width: 425px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+
+
+nav button {
+  padding: 15px;
+  background-color: #ffffff;
+  color: #282828;
+  float: right;
+  margin: 5px;
+  border: none;
+}
+
+nav ul {
+  max-height: 0px;
+  overflow: hidden;
+  transform: translateX(90);
+}
+
+[aria-controls="menu-list"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+[aria-expanded="true"] ~ ul {
+  display: grid;
+  max-height: 500px;
+  transform: rotateX(0);
+}
+
+[aria-expanded="false"] .close {
+  display: none;
+}
+
+[aria-expanded="true"] .close {
+  display: inline-block;
+}
+
+[aria-expanded="true"] .open {
+  display: none;
+}
+
+}
+
+
+@media screen and (max-width: 375px) {
+  .container { 
+    max-width: 375px;  
+    margin: auto;
+    padding: 0 40px;
+  }
+  
   h2 { font-size: 40px; }
   
   p { font-size: 12px; }
@@ -28,10 +523,61 @@
 
   .hero { margin-left: 40px ;}
 
-  .benefitCards {
-    display: flex;
-    flex-direction: column;
+  .google {
+    width: 50px;
+    position: relative;
+    top: 30px;
+    left: 0px;
   }
+  
+  .atlassian {
+    position: relative;
+    top: 45px;
+    left: 55px;
+    width: 80px;
+  }
+  
+  .asana {
+    position: relative;
+    top: 45px;
+    left: 100px;
+    width: 80px;
+  }
+  
+  .paypal {
+    position: relative;
+    top: 200px;
+    left: -290px;
+    width: 70px;
+  }
+  
+  .weave {
+    position: relative;
+    top: 110px;
+    left: 190px;
+    width: 80px;
+  }
+  
+  .google-a {
+    width: 50px;
+    position: relative;
+    top: 200px;
+    left: -15px;
+  }
+  
+  .calendar {
+    position: relative;
+    top: 250px;
+    left: 90px;
+    width: 80px;
+  }
+
+  .benefits { margin-top: 350px;}
+
+  .benefitCards {
+    display: grid;
+    grid-template-columns: 1fr;  
+}
 
   .card { width: 90%; }
 
@@ -60,12 +606,11 @@
   .why {
     display: flex;
     flex-direction: column;
-  }
-
-  .why div { 
-    display: flex;
-    flex-direction: row;
-    margin-top: 25px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    width: 80%;
   }
 
   .why div i {
@@ -116,10 +661,11 @@
   .trustedlogos {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content:center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around ;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 
   .trustedlogos img { 
@@ -135,8 +681,9 @@
   }
 
   .pricingcard {
-    width: 85%;
+    width: 80%;
     text-align: center;
+    justify-content: space-around;
   }
 
   .pricingcard span { 
@@ -147,9 +694,8 @@
   .pricingcard p, .pricingcard > p:nth-child(5) { text-align: center; }
 
   .pricingBlock { 
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr;
     margin-top: 70px;
   }
 
@@ -230,7 +776,7 @@
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
-    width: 385px;
+    width: 330px;
   }
 
   select { width: 93%; }
@@ -248,7 +794,15 @@
 
   .formend p { text-align: left;}
   .formend div { padding-left: 0px; }
-  .privacyPolicy { padding-left: 45px;}
+
+  .formendbutton {margin-bottom: 20px; }
+  
+  .privacyPolicy { 
+    padding-left: 45px;
+    font-size: 14px;
+  }
+
+  .privacyPolicyBlue { font-size: 14px; }
 
   .footerTop { 
     margin: 60px 0;
@@ -262,9 +816,9 @@
   footer img { 
     display: flex;
     margin: auto;
-   }
+  }
 
-  .footerTop p { font-size: 24px; }
+  .footerTop p { font-size: 20px; }
   
   footer h4 {
     font-size: 26px;
@@ -280,6 +834,13 @@
   li span {
     display: inline-flex;
     align-items: center;
+  }
+
+  .formCard {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    height: 1350px;
   }
 
   .footerBottom div {
@@ -300,17 +861,18 @@
 
   .links {
     display: flex;
+  }
+
+  .footerBottom .links .urlpath {
+    flex-wrap: nowrap;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
   }
 
-  .urlPath {
-    float: none;
-    display: inline;
+  .urlpath {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
-
-  
 
   .blueactive { 
     color: rgb(36, 98, 254);
@@ -319,11 +881,11 @@
 
   .socials {
     display: flex;
-    flex-direction: column;
-    margin: auto;
+    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     margin-top: 15px;
+    margin: auto;
   }
 
   .socialicons { 
@@ -342,24 +904,66 @@
     padding-left: 35px;
   }
 
-  footer span img {
+  .flag {
     position: relative;
     top: -32px;
     right: 420px;
     width: 20px;
   }
 
+  .footerBottom div .copyright{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    width: 375px;
+    margin-left: 15px;
+  }
 
+  .cookies {
+    width: 375px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+
+
+nav button {
+  padding: 15px;
+  background-color: #ffffff;
+  color: #282828;
+  float: right;
+  margin: 5px;
+  border: none;
 }
 
+nav ul {
+  max-height: 0px;
+  overflow: hidden;
+  transform: translateX(90);
+}
 
+[aria-controls="menu-list"] {
+  display: block;
+  margin-bottom: 10px;
+}
 
+[aria-expanded="true"] ~ ul {
+  display: grid;
+  max-height: 500px;
+  transform: rotateX(0);
+}
 
+[aria-expanded="false"] .close {
+  display: none;
+}
 
+[aria-expanded="true"] .close {
+  display: inline-block;
+}
 
-
-
-
-
+[aria-expanded="true"] .open {
+  display: none;
+}
 
 }

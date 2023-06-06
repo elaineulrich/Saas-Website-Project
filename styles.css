@@ -2,16 +2,18 @@ header {
   align-items: center;
 }
 
-header > img {
+nav > img {
   max-width: 200px;
 }
 
-header ul {
+nav button { display: none;}
+
+nav ul {
   display: flex;
   float: right;
 }
 
-header ul li { 
+nav ul li { 
   padding: 18px;
   font-weight: 500;
   font-size: 20px;
@@ -56,49 +58,49 @@ header ul li {
   width: 50px;
   position: relative;
   top: 50px;
-  left: 450px;
+  left: 350px;
 }
 
 .atlassian {
   position: relative;
-  top: 75px;
-  left: 550px;
-  width: 70px;
+  top: -20px;
+  left: 475px;
+  width: 80px;
 }
 
 .asana {
   position: relative;
-  top: 65px;
-  left: 900px;
-  width: 70px;
+  top: -120px;
+  left: 750px;
+  width: 80px;
 }
 
 .paypal {
   position: relative;
-  top: 300px;
-  left: 175px;
-  width: 70px;
+  top: 0px;
+  left: 300px;
+  width: 80px;
 }
 
 .weave {
   position: relative;
-  top: 200px;
-  left: 800px;
-  width: 70px;
+  top: -100px;
+  left: 600px;
+  width: 80px;
 }
 
 .google-a {
   width: 50px;
   position: relative;
-  top: 300px;
-  left: 500px;
+  top: -30px;
+  left: 450px;
 }
 
 .calendar {
   position: relative;
-  top: 375px;
-  left: 900px;
-  width: 70px;
+  top: -85px;
+  left: 750px;
+  width: 80px;
 }
 
 .benefits { 
@@ -497,6 +499,11 @@ p.bioTitleGray {
   width: 50px;
 }
 
+input { 
+height: 25px;
+margin-bottom: 0px;
+}
+
 input, select, textarea { 
   padding: 15px;
   border: 1px solid lightgrey;
@@ -507,7 +514,7 @@ input, select, textarea {
   margin-bottom: 0;
 }
 
-select { width: 89%; }
+select { margin-top: -60px; }
 
 textarea {
   width: 90%;
@@ -515,7 +522,7 @@ textarea {
   background-color: #ffffff;
   resize: none;
   margin-left: 14px;
-  margin-top: -50px;
+  margin-top: 0px;
 }
 
 .fa-square { 
@@ -589,6 +596,8 @@ li i {
   padding-top: 0;
 }
 
+footer hr { width: 1325px; }
+
 footer img { max-width: 200px;}
 
 .blueactive { 
@@ -627,8 +636,11 @@ footer h4 {font-size: 24px;}
   margin-bottom: 30px;
 }
 
-.footerBottom div span p {
+.cookies {
   font-size: 16px;
+  text-align: center;
+  width: 75%;
+  margin-left: 150px;
 }
 
 .fa-copyright { 
@@ -639,11 +651,21 @@ footer h4 {font-size: 24px;}
 
 .links {
   display: flex;
-  align-items: center;
 }
 
-.urlPath {
-  float: left;
+.urlpath {
+  display: flex;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.stateselect {
+  display: flex;
 }
 
 .socialicons { 
@@ -653,6 +675,7 @@ footer h4 {font-size: 24px;}
   width: 10px;
   height: 35px;
   align-items: center;
+  margin-left: -180px;
 }
 
 footer span select {
@@ -660,9 +683,10 @@ footer span select {
   border: none;
   background-color: rgba(220, 230, 236, 0.516);
   font-size: 16px;
-  width: 35%;
+  width: 170px;
   height: 35px;
   padding-left: 40px;
+  margin-left: -70px;
 }
 
 .socialicons i {
@@ -679,9 +703,9 @@ footer span select {
   color: rgb(255, 255, 255);
 }
 
-footer span select img {
-  position:relative;
-  top: 8px;
-  right: 265px;
-  width: 3%;
+.flag {
+  position: relative;
+  top: -48px;
+  right: 175px;
+  width: 20px;
 }
