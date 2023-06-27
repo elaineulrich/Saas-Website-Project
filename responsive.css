@@ -1,6 +1,5 @@
 @media screen and (max-width: 768px) {
   .container { 
-    max-width: 768px;  
     margin: auto;
     padding: 0 40px;
   }
@@ -124,17 +123,16 @@
     flex-direction: row;
   }
 
-  .why div { 
-    display: flex;
-    flex-direction: row;
-  }
-
   .why div i {
     margin-right: 0px;
   }
 
+  .why div h4 {
+    margin-top: 10px;
+  }
+
   .blueLine {
-    margin-top: -60px;
+    margin-top: -75px;
     width: 68%;
     border-color: rgb(244, 250, 255);
     border-width: 2px;
@@ -246,11 +244,14 @@
     flex-direction: column;
   }
 
-  .hireus > div { 
-    width: 85%;
-    display: block;
-    justify-content: center;
-    
+  .twocolumns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    margin: 50px 0px;
+    column-gap: 20px;
   }
 
   .hireus h4 { text-align: center; }
@@ -278,10 +279,10 @@
   .hireus img {
     border-radius: 90px;
     padding: 20px 20px ;
-    width: 12%;
+    width: 20%;
   }
   
-  .hireus img:nth-child(3) { width: 18%; }
+  .hireus img:nth-child(3) { width: 24%; }
 
   .hireus :nth-child(4) {
     margin-bottom: 0px;
@@ -291,7 +292,8 @@
     background-color: white;
     border-radius: 8px;
     border: none;
-    height: 1250px;
+    height: 880px;
+    margin-bottom: 25px;
   }
 
   .formCard h4 {
@@ -301,7 +303,7 @@
 
   .gridinput {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-gap: 20px;
   }
 
@@ -313,13 +315,14 @@
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
-    width: 330px;
+    width: 245px;
   }
 
   select { width: 93%; }
 
   textarea {
     height: 130px;
+    width: 590px;
   }
 
   .formend { 
@@ -327,7 +330,10 @@
     padding-left: 10px;
   }
 
-  .fa-square { font-size: 35px; }
+  .fa-square { 
+    font-size: 35px; 
+    margin-top: 0px;
+  }
 
   .formend p { text-align: left;}
   .formend div { padding-left: 0px; }
@@ -335,37 +341,40 @@
   .formendbutton {margin-bottom: 20px; }
   
   .privacyPolicy { 
-    padding-left: 45px;
+    padding-left: 55px;
     font-size: 14px;
   }
 
   .privacyPolicyBlue { font-size: 14px; }
 
   .footerTop { 
-    margin: 60px 0;
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 283px 414px;
+    column-gap: 0px;
+    justify-content: space-around;
+  }
+
+  .footerTop .columnA { 
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
   }
 
   footer img { 
     display: flex;
-    margin: auto;
   }
 
-  .footerTop p { font-size: 20px; }
+  .footerTop p { font-size: 16px; }
   
   footer h4 {
-    font-size: 26px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
   }
 
   footer li { 
-    text-align: center;
+    text-align: left;
     padding-bottom: 20px;
-    font-size: 24px;
+    font-size: 18px;
   }
   
   li span {
@@ -373,20 +382,18 @@
     align-items: center;
   }
 
-  .footerBottom div {
-    padding-bottom: 25px;
-    width: 900px;
+  .footerBottom div :nth-child(1) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .footerBottom div span {
     display: flex;
-    margin-right: -140px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    align-content: stretch;
-    flex-direction: column;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .links {
@@ -430,18 +437,10 @@
 
   .flag {
     position: relative;
-    top: -32px;
-    right: 420px;
-    width: 20px;
-  }
-
-  .footerBottom div .copyright{
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: none;
-    flex-direction: row;
-    width: 550px;
-    margin-left: 15px;
+    top: 20px;
+    right: 175px;
+    width: 30px;
+    height: 12px;
   }
 
   .cookies {
@@ -495,33 +494,47 @@ nav ul {
 
 @media screen and (max-width: 375px) {
   .container { 
-    max-width: 375px;  
     margin: auto;
-    padding: 0 40px;
+    padding: 0 10px;
   }
   
-  h2 { font-size: 40px; }
+  h2 { font-size: 24px; }
   
   p { font-size: 12px; }
 
   .herocontainer { display: block; }
   
   .heroleft {
-    margin: 50px 0px;
+    margin: 0px 0px;
   }
   
   .heroleft h2 {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: 500;
     text-align: center;
+    margin: 0px 0px
   }
   
   .heroleft p {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
   }
 
-  .hero { margin-left: 40px ;}
+  .hero { 
+    margin-left: 0px ;
+    margin-top: 50px;
+  }
+
+  .navButton { 
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .navButton i {
+    padding: 4px 6px;
+    margin-right: 10px;
+  }
+
+  .learnmore { font-size: 16px; }
 
   .google {
     width: 50px;
@@ -533,46 +546,46 @@ nav ul {
   .atlassian {
     position: relative;
     top: 45px;
-    left: 55px;
-    width: 80px;
+    left: 30px;
+    width: 60px;
   }
   
   .asana {
     position: relative;
-    top: 45px;
-    left: 100px;
-    width: 80px;
+    top: 40px;
+    left: 60px;
+    width: 60px;
   }
   
   .paypal {
     position: relative;
-    top: 200px;
-    left: -290px;
+    top: 137px;
+    left: -225px;
     width: 70px;
   }
   
   .weave {
     position: relative;
-    top: 110px;
-    left: 190px;
-    width: 80px;
+    top: 50px;
+    left: 165px;
+    width: 70px;
   }
   
   .google-a {
     width: 50px;
     position: relative;
-    top: 200px;
-    left: -15px;
+    top: 143px;
+    left: -30px;
   }
   
   .calendar {
     position: relative;
-    top: 250px;
-    left: 90px;
+    top: 165px;
+    left: 48px;
     width: 80px;
   }
 
-  .benefits { margin-top: 350px;}
+  .benefits { margin-top: 225px;}
 
   .benefitCards {
     display: grid;
@@ -613,13 +626,18 @@ nav ul {
     width: 80%;
   }
 
+  .why div { 
+    display: flex;
+    margin: 30px 0px;
+  }
+
   .why div i {
     margin-right: 30px;
   }
   
   .blueLine { display: none;}
 
-  .bannertwo { max-width: 600px; }
+  .bannertwo { max-width: 100%; }
 
   .banner {
     border: 20px solid white;
@@ -627,7 +645,10 @@ nav ul {
     background-color: white;
   }
     
-  .fa-play { padding-left: 9px; }
+  .fa-play { 
+    padding-left: 9px; 
+    margin-top: 50px;
+  }
 
   .flexcontainer { 
     flex-direction: column;
@@ -647,8 +668,8 @@ nav ul {
   .dotsimage { left: -120px; }
   
   .hubspot { 
-    max-width: 30%;
-    margin-left: 50px;
+    max-width: 40%;
+    margin-left: 0px;
   }
 
   .flextext { 
@@ -656,15 +677,24 @@ nav ul {
     text-align: center;
   }
 
-  .bioTitle { margin-bottom: 50px; }
+  .flextext h4 { font-size: 22px; }
+
+  .bioName { font-size: 22px; }
+
+  .bioTitle { 
+    font-size: 18px;
+    margin-bottom: 50px; 
+  }
+
+  .trusted h2 { font-size: 18px; }
 
   .trustedlogos {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: space-around ;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 100px;
   }
 
@@ -679,6 +709,9 @@ nav ul {
     margin: auto;
     padding-bottom: 100px;
   }
+
+  .pricing h2 { font-size: 22px; }
+  .pricing p { font-size: 16px; }
 
   .pricingcard {
     width: 80%;
@@ -711,7 +744,6 @@ nav ul {
   }
 
   .hireus > div { 
-    width: 85%;
     display: block;
     justify-content: center;
   }
@@ -760,6 +792,7 @@ nav ul {
   .formCard h4 {
     text-align: left;
     margin-left: 15px;
+    font-size: 16px;
   }
 
   .gridinput {
@@ -776,19 +809,22 @@ nav ul {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
-    width: 330px;
+    width: 200px;
   }
 
-  select { width: 93%; }
+  select { width: 91%; }
 
   textarea {
     height: 130px;
+    font-size: 14px;
   }
 
   .formend { 
     margin-top: 20px; 
     padding-left: 10px;
   }
+
+  .formend p { font-size: 14px; }
 
   .fa-square { font-size: 35px; }
 
@@ -798,11 +834,15 @@ nav ul {
   .formendbutton {margin-bottom: 20px; }
   
   .privacyPolicy { 
-    padding-left: 45px;
+    padding-left: 10px;
+    padding-right: 50px;
     font-size: 14px;
   }
 
-  .privacyPolicyBlue { font-size: 14px; }
+  .privacyPolicyBlue { 
+    padding-left: 10px;
+    font-size: 14px; 
+  }
 
   .footerTop { 
     margin: 60px 0;
@@ -818,7 +858,13 @@ nav ul {
     margin: auto;
   }
 
-  .footerTop p { font-size: 20px; }
+  .footerTop p { font-size: 16px; }
+
+  .footerTop .columnA { 
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 0px;
+  }
   
   footer h4 {
     font-size: 26px;
@@ -845,18 +891,15 @@ nav ul {
 
   .footerBottom div {
     padding-bottom: 25px;
-    width: 900px;
     display: flex;
     flex-direction: column;
   }
 
   .footerBottom div span {
     display: flex;
-    margin-right: -140px;
+    margin: auto;
     margin-bottom: 30px;
-    flex-wrap: wrap;
-    align-content: stretch;
-    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .links {
@@ -894,6 +937,8 @@ nav ul {
     flex-wrap: nowrap;
   }
 
+  .stateselect { margin-left:  ;}
+
   footer div select {
     width: 180px;
     margin-top: 10px;
@@ -916,9 +961,11 @@ nav ul {
     flex-wrap: nowrap;
     align-content: center;
     flex-direction: row;
-    width: 375px;
+    width: 100%;
     margin-left: 15px;
   }
+
+  .copyright p { font-size: 16px; }
 
   .cookies {
     width: 375px;
